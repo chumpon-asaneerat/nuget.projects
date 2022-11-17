@@ -62,6 +62,10 @@
   * Microsoft.Owin.4.2.2
   * Microsoft.AspNet.WebApi.Client (System.Net.Http.Formatting) 5.2.9
   * Microsoft.AspNet.WebApi.Core (System.Web.Http) 5.2.9
+- Swashbuckle.Core.5.6.0
+  * required Microsoft.AspNet.WebApi.Core (System.Web.Http) 5.2.9
+  * required Microsoft.AspNet.WebApi.Client (System.Net.Http.Formatting) 5.2.9
+  * required Newtonsoft.Json.13.0.1
 
 [Rest Client (Self Host)]
 - 

@@ -34,8 +34,13 @@ nuget.projects  #10
 nuget.projects  #9
 - 
 
+[commited]
 nuget.projects  #8
-- 
+- Update nuget.Owin.WebServer.SelfHost project #3.
+  - Add Swashbuckle.Core.5.6.0
+- Update App.Config in related projects
+- Wpf.All.local project update #4.
+  - Add assemblies for Owin WebServer
 
 [commited]
 nuget.projects  #7
