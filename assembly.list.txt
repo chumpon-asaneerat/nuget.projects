@@ -71,14 +71,14 @@
   * required Microsoft.AspNet.Cors (System.Web.Cors) 5.2.9
 
 [Rest Client (Self Host)]
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- RestSharp.108.0.2
+  * System.Text.Json.7.0.0
+    * Microsoft.Bcl.AsyncInterfaces.7.0.0
+    * System.Text.Encodings.Web.7.0.0
+    * System.Buffers.4.5.1
+    * System.Memory.4.5.5
+    * System.Numerics.Vectors.4.5.0
+    * System.Runtime.CompilerServices.Unsafe.6.0.0
+    * System.Threading.Tasks.Extensions.4.5.4
+    * System.ValueTuple.4.5.0
+- RestSharp.Serializers.NewtonsoftJson.108.0.2

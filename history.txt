@@ -28,8 +28,13 @@ nuget.projects  #12
 nuget.projects  #11
 - 
 
+[commited]
 nuget.projects  #10
-- 
+- Update nuget.Owin.WebServer.SelfHost project #5.
+  - Add RestSharp packages. 
+- Wpf.All.local project update #6.
+  - Add assemblies for RestSharp.
+- Update App.Config in related projects (System.Text.Json and related dll)
 
 [commited]
 nuget.projects  #9

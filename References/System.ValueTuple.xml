@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>System.Net.Http.Primitives</name>
+        <name>System.ValueTuple</name>
     </assembly>
     <members>
     </members>
