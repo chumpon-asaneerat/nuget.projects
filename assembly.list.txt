@@ -1,3 +1,10 @@
+## 
+## To find Version, PublicKeyToken use Powershell below
+## 
+##   PS C:\Users\chump> ([system.reflection.assembly]::loadfile("D:\Projects\NET\nuget\nuget.projects\References\NewtonSoft.Json.dll")).FullName
+##   Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed	
+## 
+
 [Dapper]
 - Dapper.2.0.123
 - Dapper.Contrib.2.0.78

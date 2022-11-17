@@ -49,8 +49,12 @@ nuget.projects  #5
 nuget.projects  #4
 - 
 
+[commited]
 nuget.projects  #3
-- 
+- Add References-Partials folder.
+- Update App.Config in all projects
+- Wpf.All.local project update #1.
+  - Add assembly NewtonSoft.json
 
 [commited]
 nuget.projects  #2
