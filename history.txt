@@ -40,12 +40,17 @@ nuget.projects  #8
 nuget.projects  #7
 - 
 
+[commited]
 nuget.projects  #6
-- 
+- Update nuget.Owin.WebServer.SelfHost project #1.
+  - Add Owin related packages
+- Add Owin related assemblies in References-Partials folder.
+- Add Owin related assemblies in References folder.
 
 [commited]
 nuget.projects  #5
 - Add nuget.Owin.WebServer.SelfHost project
+- Update SqlServer.Types to newest version.
 
 [commited]
 nuget.projects  #4

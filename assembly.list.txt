@@ -43,12 +43,20 @@
   #    Target Dirrectory  : C:\SolutionDir\Executables\MYAPP
 
 [Owin WebServer (Self Host)]
-- 
-- 
-- 
-- 
-- 
-- 
+- Owin.1.0
+- Microsoft.Owin.4.2.2
+  * Owin.1.0 required
+- Microsoft.Owin.Host.HttpListener.4.2.2
+  * Owin.1.0 required
+  * Microsoft.Owin.4.2.2
+- Microsoft.Owin.FileSystems.4.2.2
+- Microsoft.Owin.StaticFiles.4.2.2
+  * Owin.1.0 required
+  * Microsoft.Owin.4.2.2
+  * Microsoft.Owin.FileSystems.4.2.2
+- Microsoft.Owin.Hosting.4.2.2
+  * Owin.1.0 required
+  * Microsoft.Owin.4.2.2
 - 
 - 
 
