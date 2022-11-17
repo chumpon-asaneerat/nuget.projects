@@ -1,0 +1,30 @@
+[Dapper]
+- Dapper.2.0.123
+- Dapper.Contrib.2.0.78
+- Dapper.FluentMap.2.0.0
+- Dapper.SqlBuilder.2.0.78
+[Oracle]
+- 
+- 
+- 
+- 
+[Owin WebServer (Self Host)]
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
