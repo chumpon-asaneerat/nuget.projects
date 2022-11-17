@@ -43,8 +43,9 @@ nuget.projects  #7
 nuget.projects  #6
 - 
 
+[commited]
 nuget.projects  #5
-- 
+- Add nuget.Owin.WebServer.SelfHost project
 
 [commited]
 nuget.projects  #4
