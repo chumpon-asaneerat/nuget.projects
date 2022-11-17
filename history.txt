@@ -1,0 +1,61 @@
+nuget.projects  #20
+- 
+
+nuget.projects  #19
+- 
+
+nuget.projects  #18
+- 
+
+nuget.projects  #17
+- 
+
+nuget.projects  #16
+- 
+
+nuget.projects  #15
+- 
+
+nuget.projects  #14
+- 
+
+nuget.projects  #13
+- 
+
+nuget.projects  #12
+- 
+
+nuget.projects  #11
+- 
+
+nuget.projects  #10
+- 
+
+nuget.projects  #9
+- 
+
+nuget.projects  #8
+- 
+
+nuget.projects  #7
+- 
+
+nuget.projects  #6
+- 
+
+nuget.projects  #5
+- 
+
+nuget.projects  #4
+- 
+
+nuget.projects  #3
+- 
+
+nuget.projects  #2
+- 
+
+[commited]
+nuget.projects  #1
+- Add history.txt
+- Add Wpf.All.local project
