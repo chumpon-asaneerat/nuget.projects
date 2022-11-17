@@ -31,8 +31,14 @@ nuget.projects  #11
 nuget.projects  #10
 - 
 
+[commited]
 nuget.projects  #9
-- 
+- Update nuget.Owin.WebServer.SelfHost project #4.
+  - Add Microsoft.AspNet.Cors (System.Web.Cors) 5.2.9
+  - Add Microsoft.Owin.Cors.4.2.2 
+- Wpf.All.local project update #5.
+  - Add assemblies for Owin WebServer (Cors).
+- Update App.Config in related projects
 
 [commited]
 nuget.projects  #8

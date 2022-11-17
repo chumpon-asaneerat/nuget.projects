@@ -66,6 +66,9 @@
   * required Microsoft.AspNet.WebApi.Core (System.Web.Http) 5.2.9
   * required Microsoft.AspNet.WebApi.Client (System.Net.Http.Formatting) 5.2.9
   * required Newtonsoft.Json.13.0.1
+- Microsoft.AspNet.Cors (System.Web.Cors) 5.2.9
+- Microsoft.Owin.Cors.4.2.2
+  * required Microsoft.AspNet.Cors (System.Web.Cors) 5.2.9
 
 [Rest Client (Self Host)]
 - 
