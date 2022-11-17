@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget.NewtonSoft.Json", "nuget.NewtonSoft.Json\nuget.NewtonSoft.Json.csproj", "{23681CE6-E360-430A-A721-A16048B3BC0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget.Oracle.ManagedDataAccess", "nuget.Oracle.ManagedDataAccess\nuget.Oracle.ManagedDataAccess.csproj", "{06107EE1-ECDD-4C1B-AB36-7803BE94F3AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{23681CE6-E360-430A-A721-A16048B3BC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23681CE6-E360-430A-A721-A16048B3BC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23681CE6-E360-430A-A721-A16048B3BC0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06107EE1-ECDD-4C1B-AB36-7803BE94F3AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06107EE1-ECDD-4C1B-AB36-7803BE94F3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06107EE1-ECDD-4C1B-AB36-7803BE94F3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06107EE1-ECDD-4C1B-AB36-7803BE94F3AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
