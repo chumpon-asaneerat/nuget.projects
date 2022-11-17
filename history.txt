@@ -52,8 +52,9 @@ nuget.projects  #4
 nuget.projects  #3
 - 
 
+[commited]
 nuget.projects  #2
-- 
+- All projects set Startup Object.
 
 [commited]
 nuget.projects  #1
