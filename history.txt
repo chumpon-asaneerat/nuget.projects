@@ -46,8 +46,11 @@ nuget.projects  #6
 nuget.projects  #5
 - 
 
+[commited]
 nuget.projects  #4
-- 
+- Add nuget.ReportViewer project
+- Wpf.All.local project update #2.
+  - Add assemblies for ReportViewer
 
 [commited]
 nuget.projects  #3
