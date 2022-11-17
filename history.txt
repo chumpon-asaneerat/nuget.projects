@@ -37,8 +37,15 @@ nuget.projects  #9
 nuget.projects  #8
 - 
 
+[commited]
 nuget.projects  #7
-- 
+- Update nuget.Owin.WebServer.SelfHost project #2.
+  - Add Microsoft.AspNet.WebApi.Client (System.Net.Http.Formatting) 5.2.9
+  - Add Microsoft.AspNet.WebApi.Core (System.Web.Http) 5.2.9
+- Add Owin related assemblies in References-Partials folder.
+- Add Owin related assemblies in References folder.
+- Wpf.All.local project update #3.
+  - Add assemblies for Owin WebServer
 
 [commited]
 nuget.projects  #6

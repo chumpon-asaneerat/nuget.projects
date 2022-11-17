@@ -57,8 +57,11 @@
 - Microsoft.Owin.Hosting.4.2.2
   * Owin.1.0 required
   * Microsoft.Owin.4.2.2
-- 
-- 
+- Microsoft.Owin.Diagnostics.4.2.2
+  * Owin.1.0 required
+  * Microsoft.Owin.4.2.2
+  * Microsoft.AspNet.WebApi.Client (System.Net.Http.Formatting) 5.2.9
+  * Microsoft.AspNet.WebApi.Core (System.Web.Http) 5.2.9
 
 [Rest Client (Self Host)]
 - 
