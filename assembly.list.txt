@@ -85,10 +85,13 @@
 
 [Excel]
 - EPPlus.6.1.0
-  * EPPlus.Interfaces.6.1.0
-  * EPPlus.System.Drawing.6.1.0
-  * Microsoft.IO.RecyclableMemoryStream.2.2.1
-    * System.Buffers.4.5.1
-    * System.Memory.4.5.5
-    * System.Numerics.Vectors.4.5.0
-    * System.Runtime.CompilerServices.Unsafe.6.0.0
+  * require EPPlus.Interfaces.6.1.0
+  * require EPPlus.System.Drawing.6.1.0
+  * require Microsoft.IO.RecyclableMemoryStream.2.2.1
+    * require System.Buffers.4.5.1
+    * require System.Memory.4.5.5
+    * require System.Numerics.Vectors.4.5.0
+    * require System.Runtime.CompilerServices.Unsafe.6.0.0
+- EPPlus.DataExtractor.2.2.0
+  * required EPPlus.6.1.0
+

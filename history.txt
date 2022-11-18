@@ -22,8 +22,14 @@ nuget.projects  #14
 nuget.projects  #13
 - 
 
+[commited]
 nuget.projects  #12
-- 
+- Update nuget.EPPlus project #1.
+  - Add EPPlus.DataExtractor latest package
+  - Update App.Config
+- Wpf.All.local project update #4.
+  - Add assemblies for EPPlus.
+  - Update App.Config
 
 [commited]
 nuget.projects  #11
