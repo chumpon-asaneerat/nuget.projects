@@ -25,8 +25,11 @@ nuget.projects  #13
 nuget.projects  #12
 - 
 
+[commited]
 nuget.projects  #11
-- 
+- Add nuget.EPPlus project.
+  - Add Microsoft.IO.RecyclableMemoryStream latest package
+  - Update App.Config
 
 [commited]
 nuget.projects  #10

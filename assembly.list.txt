@@ -82,3 +82,13 @@
     * System.Threading.Tasks.Extensions.4.5.4
     * System.ValueTuple.4.5.0
 - RestSharp.Serializers.NewtonsoftJson.108.0.2
+
+[Excel]
+- EPPlus.6.1.0
+  * EPPlus.Interfaces.6.1.0
+  * EPPlus.System.Drawing.6.1.0
+  * Microsoft.IO.RecyclableMemoryStream.2.2.1
+    * System.Buffers.4.5.1
+    * System.Memory.4.5.5
+    * System.Numerics.Vectors.4.5.0
+    * System.Runtime.CompilerServices.Unsafe.6.0.0
