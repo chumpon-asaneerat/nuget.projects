@@ -4,8 +4,9 @@ nuget.projects  #20
 nuget.projects  #19
 - 
 
+[commited]
 nuget.projects  #18
-- 
+- Update App.Config related to Report Viewer.
 
 [commited]
 nuget.projects  #17
