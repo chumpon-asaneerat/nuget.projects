@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget.RestClient", "nuget.R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget.EPPlus", "nuget.EPPlus\nuget.EPPlus.csproj", "{2261761D-4879-45F1-84D0-B67F46F9FCD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget.AllPackages", "nuget.AllPackages\nuget.AllPackages.csproj", "{77DD10BE-9410-4F78-B63B-3992E9D70311}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{2261761D-4879-45F1-84D0-B67F46F9FCD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2261761D-4879-45F1-84D0-B67F46F9FCD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2261761D-4879-45F1-84D0-B67F46F9FCD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DD10BE-9410-4F78-B63B-3992E9D70311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DD10BE-9410-4F78-B63B-3992E9D70311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DD10BE-9410-4F78-B63B-3992E9D70311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DD10BE-9410-4F78-B63B-3992E9D70311}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
