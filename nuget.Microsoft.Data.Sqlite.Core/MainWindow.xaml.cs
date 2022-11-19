@@ -46,7 +46,8 @@ namespace nuget.Microsoft.Data.Sqlite.Core
 
         private void Run()
         {
-
+            // Note: native dll need to manual copy from 
+            // SQLitePCLRaw.lib.e_sqlite3.2.1.2 in runtimes folder
         }
 
         #endregion

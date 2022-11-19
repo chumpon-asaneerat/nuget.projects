@@ -265,6 +265,9 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>REM FOR REPORT VIEWER
-xcopy "$(SolutionDir)References\SqlServerTypes\*.*" "$(TargetDir)\SqlServerTypes\*.*" /Y/D/E</PostBuildEvent>
+xcopy "$(SolutionDir)References\SqlServerTypes\*.*" "$(TargetDir)\SqlServerTypes\*.*" /Y/D/E
+
+REM SQLITE RUNTIME
+xcopy "$(SolutionDir)References\runtimes\*.*" "$(TargetDir)\runtimes\*.*" /Y/D/E</PostBuildEvent>
   </PropertyGroup>
 </Project>

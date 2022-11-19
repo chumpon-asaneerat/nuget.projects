@@ -105,5 +105,10 @@
 
 
 [Micsosoft.Data.Sqlite.Core]
-- 
+- Microsoft.Data.Sqlite.Core.7.0.0
+  * SQLitePCLRaw.core.2.1.2
+  * SQLitePCLRaw.lib.e_sqlite3.2.1.2
+  * SQLitePCLRaw.provider.dynamic_cdecl.2.1.2
+  * SQLitePCLRaw.bundle_green.2.1.2
+  * SQLitePCLRaw.bundle_e_sqlite3.2.1.2
 
