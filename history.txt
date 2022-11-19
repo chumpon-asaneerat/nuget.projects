@@ -16,8 +16,15 @@ nuget.projects  #16
 nuget.projects  #15
 - 
 
+[commited]
 nuget.projects  #14
-- 
+- Add nuget.Sqlite.net.pcl project.
+  - Add nuget packages.
+- nuget.AllPakcages update #1
+  - Add nuget packages Sqlite.net.pcl, SqliteNetExtensions.
+- Wpf.All.local project update #9.
+  - Add assemblies for Sqlite.net.pcl.
+- Recheck all app.config all projects.
 
 [commited]
 nuget.projects  #13

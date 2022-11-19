@@ -95,3 +95,10 @@
 - EPPlus.DataExtractor.2.2.0
   * required EPPlus.6.1.0
 
+[Sqlite]
+- sqlite-net-pcl.1.8.116
+  * SQLitePCLRaw.core.2.1.2
+  * SQLitePCLRaw.bundle_green.2.1.2
+  * SQLitePCLRaw.lib.e_sqlite3.2.1.2
+  * SQLitePCLRaw.provider.dynamic_cdecl.2.1.2
+- SQLiteNetExtensions.2.1.0
