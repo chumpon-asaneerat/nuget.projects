@@ -28,8 +28,10 @@ nuget.projects  #22
 nuget.projects  #21
 - 
 
+[commited]
 nuget.projects  #20
-- 
+- Add nuget.Xceed.Wpf.Toolkit project.
+  - Add nuget packages.
 
 [commited]
 nuget.projects  #19

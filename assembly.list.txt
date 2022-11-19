@@ -111,3 +111,12 @@
   * SQLitePCLRaw.provider.dynamic_cdecl.2.1.2
   * SQLitePCLRaw.bundle_green.2.1.2
 
+[Xceed Wpf Toolkit]
+- Extended.Wpf.Toolkit.4.4.0
+
+
+
+
+
+
+

@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget.SqlLite.net.pcl", "nu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget.Microsoft.Data.Sqlite.Core", "nuget.Microsoft.Data.Sqlite.Core\nuget.Microsoft.Data.Sqlite.Core.csproj", "{FABC386A-29D2-4A25-904A-349F0CE7F2EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget.Xceed.Wpf.Toolkit", "nuget.Xceed.Wpf.Toolkit\nuget.Xceed.Wpf.Toolkit.csproj", "{3EC1E466-A556-435F-824D-A3C592F84BBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{FABC386A-29D2-4A25-904A-349F0CE7F2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FABC386A-29D2-4A25-904A-349F0CE7F2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FABC386A-29D2-4A25-904A-349F0CE7F2EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC1E466-A556-435F-824D-A3C592F84BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC1E466-A556-435F-824D-A3C592F84BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC1E466-A556-435F-824D-A3C592F84BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC1E466-A556-435F-824D-A3C592F84BBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
