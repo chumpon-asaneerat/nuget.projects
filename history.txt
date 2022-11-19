@@ -25,8 +25,12 @@ nuget.projects  #23
 nuget.projects  #22
 - 
 
+[commited]
 nuget.projects  #21
-- 
+- nuget.AllPakcages update
+  - Add nuget packages Xceed.Wpf.Toolkit.
+- Wpf.All.local project update
+  - Add nuget packages Xceed.Wpf.Toolkit.
 
 [commited]
 nuget.projects  #20
