@@ -13,8 +13,10 @@ nuget.projects  #17
 nuget.projects  #16
 - 
 
+[commited]
 nuget.projects  #15
-- 
+- Add nuget.Microsoft.Data.Sqlite.Core project.
+  - Add nuget packages.
 
 [commited]
 nuget.projects  #14
