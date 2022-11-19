@@ -17,6 +17,8 @@ using System.Windows.Shapes;
 
 #endregion
 
+using SQLite;
+
 namespace nuget.SqlLite.net.pcl
 {
     /// <summary>
@@ -44,10 +46,28 @@ namespace nuget.SqlLite.net.pcl
 
         #region Private Methods
 
+        class Role
+        {
+            public string RoleId { get; set; }
+        }
+
         private void Run()
         {
             // Note: native dll need to manual copy from 
             // SQLitePCLRaw.lib.e_sqlite3.2.1.2 in runtimes folder
+            var _db = new SQLiteConnection("./data/TA.db");
+            var role = _db.Query<Role>("SELECT * FROM Role WHERE RoleId = $id", "ADMINS").FirstOrDefault();
+            if (null != role)
+            {
+                Console.WriteLine($"Hello, {role.RoleId}!");
+            }
+            else
+            {
+                Console.WriteLine($"No one here!");
+            }
+            _db.Close();
+            _db  = null;
+
         }
 
         #endregion

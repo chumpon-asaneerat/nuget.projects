@@ -98,9 +98,9 @@
 [Sqlite-net-pcl]
 - sqlite-net-pcl.1.8.116
   * SQLitePCLRaw.core.2.1.2
-  * SQLitePCLRaw.bundle_green.2.1.2
   * SQLitePCLRaw.lib.e_sqlite3.2.1.2
   * SQLitePCLRaw.provider.dynamic_cdecl.2.1.2
+  * SQLitePCLRaw.bundle_green.2.1.2
 - SQLiteNetExtensions.2.1.0
 
 
@@ -110,5 +110,4 @@
   * SQLitePCLRaw.lib.e_sqlite3.2.1.2
   * SQLitePCLRaw.provider.dynamic_cdecl.2.1.2
   * SQLitePCLRaw.bundle_green.2.1.2
-  * SQLitePCLRaw.bundle_e_sqlite3.2.1.2
 

@@ -7,8 +7,12 @@ nuget.projects  #19
 nuget.projects  #18
 - 
 
+[commited]
 nuget.projects  #17
-- 
+- Update nuget.Microsoft.Data.Sqlite.Core project #2.
+  - Add test code.
+- Update nuget.Sqlite.net.pcl project #1.
+  - Add test code.
 
 [commited]
 nuget.projects  #16
