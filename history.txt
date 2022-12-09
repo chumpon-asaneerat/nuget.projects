@@ -22,8 +22,9 @@ nuget.projects  #24
 nuget.projects  #23
 - 
 
+[commited]
 nuget.projects  #22
-- 
+- Add nuget.MapSui project.
 
 [commited]
 nuget.projects  #21
