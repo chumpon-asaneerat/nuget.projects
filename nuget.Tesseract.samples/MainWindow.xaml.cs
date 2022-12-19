@@ -14,8 +14,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Forms;
 
 #endregion
+
+using Tesseract;
 
 namespace nuget.Tesseract.samples
 {
@@ -46,7 +49,85 @@ namespace nuget.Tesseract.samples
 
         private void ChooseImage()
         {
+            var fd = new OpenFileDialog();
+            fd.Filter = "Jpg Images|*.jpg;*.jpeg|Png Images|*.png";
+            if (fd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                txtFileName.Text = fd.FileName;
+            }
+            fd.Dispose();
+            fd = null;
+        }
 
+        private void WriteText(string text = null)
+        {
+            string line = string.Empty;
+            if (null != text)
+            {
+                line += text.Trim();
+            }
+            line += Environment.NewLine;
+        }
+
+        private void ScanImage()
+        {
+            try
+            {
+                string fileName = txtFileName.Text;
+                using (var engine = new TesseractEngine(@"./tessdata", "tha", EngineMode.Default))
+                {
+                    using (var img = Pix.LoadFromFile(fileName))
+                    {
+                        using (var page = engine.Process(img))
+                        {
+                            var text = page.GetText();
+                            WriteText(string.Format("Mean confidence: {0}", page.GetMeanConfidence()));
+                            WriteText(string.Format("Text (GetText): \r\n{0}", text));
+                            WriteText("Text (iterator):");
+
+                            using (var iter = page.GetIterator())
+                            {
+                                iter.Begin();
+                                do
+                                {
+                                    do
+                                    {
+                                        do
+                                        {
+                                            do
+                                            {
+                                                if (iter.IsAtBeginningOf(PageIteratorLevel.Block))
+                                                {
+                                                    WriteText("<BLOCK>");
+                                                }
+
+                                                WriteText(iter.GetText(PageIteratorLevel.Word));
+                                                WriteText(" ");
+
+                                                if (iter.IsAtFinalOf(PageIteratorLevel.TextLine, PageIteratorLevel.Word))
+                                                {
+                                                    WriteText();
+                                                }
+                                            } while (iter.Next(PageIteratorLevel.TextLine, PageIteratorLevel.Word));
+
+                                            if (iter.IsAtFinalOf(PageIteratorLevel.Para, PageIteratorLevel.TextLine))
+                                            {
+                                                WriteText();
+                                            }
+                                        } while (iter.Next(PageIteratorLevel.Para, PageIteratorLevel.TextLine));
+                                    } while (iter.Next(PageIteratorLevel.Block, PageIteratorLevel.Para));
+                                } while (iter.Next(PageIteratorLevel.Block));
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Unexpected Error: " + e.Message);
+                Console.WriteLine("Details: ");
+                Console.WriteLine(e.ToString());
+            }
         }
 
         #endregion
