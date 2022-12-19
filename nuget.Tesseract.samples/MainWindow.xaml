@@ -3,10 +3,29 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:nuget.Tesseract.samples"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Tesseract OCR Sample"
+        Height="450"
+        Width="800"
+        mc:Ignorable="d">
+    <DockPanel LastChildFill="True">
+        <DockPanel DockPanel.Dock="Top"
+                   LastChildFill="True"
+                   Height="30">
+            <StackPanel Orientation="Horizontal"
+                        DockPanel.Dock="Left"
+                        VerticalAlignment="Center">
+                <TextBlock Margin="5,0" Text="Image File: " />
+                <TextBlock x:Name="txtFileName"
+                           Margin="5,0"
+                           Text="-" />
+                <Button x:Name="cmdBrowse"
+                        Margin="5,0"
+                        Width="100"
+                        Content="Browse" 
+                        Click="cmdBrowse_Click"/>
+            </StackPanel>
+            <Grid />
+        </DockPanel>
+        <Grid />
+    </DockPanel>
 </Window>
