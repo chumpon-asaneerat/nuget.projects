@@ -16,8 +16,10 @@ nuget.projects  #26
 nuget.projects  #25
 - 
 
+[commited]
 nuget.projects  #24
-- 
+- nuget.Tesseract.samples project.
+  - Update packages.
 
 [commited]
 nuget.projects  #23
