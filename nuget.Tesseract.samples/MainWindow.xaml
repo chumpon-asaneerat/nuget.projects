@@ -21,11 +21,46 @@
                 <Button x:Name="cmdBrowse"
                         Margin="5,0"
                         Width="100"
-                        Content="Browse" 
-                        Click="cmdBrowse_Click"/>
+                        Content="Browse"
+                        Click="cmdBrowse_Click" />
+                <Grid Width="50" />
+                <Button x:Name="cmdScan"
+                        Margin="5,0"
+                        Width="100"
+                        Content="Scan"
+                        Click="cmdScan_Click" />
+                <Button x:Name="cmdClear"
+                        Margin="5,0"
+                        Width="100"
+                        Content="Clear"
+                        Click="cmdClear_Click" />
             </StackPanel>
             <Grid />
         </DockPanel>
-        <Grid />
+        <DockPanel DockPanel.Dock="Left"
+                   LastChildFill="True"
+                   Margin="5"
+                   Width="400">
+            <Border BorderBrush="Silver"
+                    BorderThickness="1"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center">
+                <Image x:Name="img"
+                       Stretch="UniformToFill" />
+            </Border>
+            <Grid />
+        </DockPanel>
+        <Grid Margin="5"
+              VerticalAlignment="Stretch"
+              HorizontalAlignment="Stretch">
+            <Border BorderBrush="Silver"
+                    BorderThickness="1"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Top">
+                <TextBox x:Name="txtOutput"
+                         ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                         ScrollViewer.VerticalScrollBarVisibility="Auto" />
+            </Border>
+        </Grid>
     </DockPanel>
 </Window>

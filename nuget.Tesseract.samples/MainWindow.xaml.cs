@@ -43,20 +43,38 @@ namespace nuget.Tesseract.samples
             ChooseImage();
         }
 
+        private void cmdScan_Click(object sender, RoutedEventArgs e)
+        {
+            ScanImage();
+        }
+
+        private void cmdClear_Click(object sender, RoutedEventArgs e)
+        {
+            ClearOutputText();
+        }
+
         #endregion
 
         #region Private Methods
 
         private void ChooseImage()
         {
+            string fileName = string.Empty;
             var fd = new OpenFileDialog();
             fd.Filter = "Jpg Images|*.jpg;*.jpeg|Png Images|*.png";
             if (fd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                txtFileName.Text = fd.FileName;
+                fileName = fd.FileName;
             }
             fd.Dispose();
             fd = null;
+
+            if (!string.IsNullOrWhiteSpace(fileName))
+            {
+                img.Source = new BitmapImage(new Uri(fileName));
+            }
+
+            txtFileName.Text = fileName;
         }
 
         private void WriteText(string text = null)
@@ -67,6 +85,12 @@ namespace nuget.Tesseract.samples
                 line += text.Trim();
             }
             line += Environment.NewLine;
+            txtOutput.Text += line;
+        }
+
+        private void ClearOutputText()
+        {
+            txtOutput.Text = string.Empty;
         }
 
         private void ScanImage()
