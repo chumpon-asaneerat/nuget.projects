@@ -19,8 +19,10 @@ nuget.projects  #35
 nuget.projects  #34
 - 
 
+[commited]
 nuget.projects  #33
-- 
+- nuget.ML.Net.samples project.
+  - Implements #2.
 
 [commited]
 nuget.projects  #32
