@@ -4,8 +4,9 @@ nuget.projects  #40
 nuget.projects  #39
 - 
 
+[commited]
 nuget.projects  #38
-- 
+- Update all nuget packages.
 
 [commited]
 nuget.projects  #37
