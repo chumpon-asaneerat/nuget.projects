@@ -1,8 +1,39 @@
+nuget.projects  #50
+- 
+
+nuget.projects  #49
+- 
+
+nuget.projects  #48
+- 
+
+nuget.projects  #47
+- 
+
+nuget.projects  #46
+- 
+
+nuget.projects  #45
+- 
+
+nuget.projects  #44
+- 
+
+nuget.projects  #43
+- 
+
+nuget.projects  #42
+- 
+
+nuget.projects  #41
+- 
+
 nuget.projects  #40
 - 
 
+[commited]
 nuget.projects  #39
-- 
+- Prepare history.txt
 
 [commited]
 nuget.projects  #38
