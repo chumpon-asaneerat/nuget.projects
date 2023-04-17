@@ -22,8 +22,9 @@ nuget.projects  #44
 nuget.projects  #43
 - 
 
+[commited]
 nuget.projects  #42
-- 
+- Update assembly list
 
 [commited]
 nuget.projects  #41

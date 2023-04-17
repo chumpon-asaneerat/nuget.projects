@@ -13,6 +13,7 @@
 
 [Json]
 - Newtonsoft.Json.13.0.1
+- LiteDb.5.0.16
 
 [Oracle]
 - Oracle.ManagedDataAccess.21.8.0
