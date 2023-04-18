@@ -223,6 +223,12 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="WpfMath">
+      <HintPath>..\References\WpfMath.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlMath.Shared">
+      <HintPath>..\References\XamlMath.Shared.dll</HintPath>
+    </Reference>
     <Reference Include="Xceed.Wpf.AvalonDock">
       <HintPath>..\References\Xceed.Wpf.AvalonDock.dll</HintPath>
     </Reference>

@@ -19,8 +19,10 @@ nuget.projects  #45
 nuget.projects  #44
 - 
 
+[commited]
 nuget.projects  #43
-- 
+- Add nuget.wpfmath project.
+  - Add WpfMath latest package (required XamlMath.Shared package).
 
 [commited]
 nuget.projects  #42

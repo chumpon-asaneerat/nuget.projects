@@ -115,9 +115,9 @@
 [Xceed Wpf Toolkit]
 - Extended.Wpf.Toolkit.4.4.0
 
-
-
-
+[Wpf-Math]
+- WpfMath.1.0.0
+  * XamlMath.Shared.1.0.0
 
 
 
