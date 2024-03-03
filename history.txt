@@ -16,8 +16,10 @@ nuget.projects  #46
 nuget.projects  #45
 - 
 
+[commited]
 nuget.projects  #44
-- 
+- Update all projects
+- Remove some projects
 
 [commited]
 nuget.projects  #43

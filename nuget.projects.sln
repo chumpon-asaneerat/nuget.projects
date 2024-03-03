@@ -33,14 +33,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget.Microsoft.Data.Sqlite
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget.Xceed.Wpf.Toolkit", "nuget.Xceed.Wpf.Toolkit\nuget.Xceed.Wpf.Toolkit.csproj", "{3EC1E466-A556-435F-824D-A3C592F84BBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget.MapSui", "nuget.MapSui\nuget.MapSui.csproj", "{2D1D0873-F1C3-4B2E-93E1-AC132605E515}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget.Tesseract.samples", "nuget.Tesseract.samples\nuget.Tesseract.samples.csproj", "{8D8E56F7-D27B-4857-8429-5597A916663C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget.ML.Net.samples", "nuget.ML.Net.samples\nuget.ML.Net.samples.csproj", "{521F6585-2173-4C8B-8D0E-2A63050B347C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget.wpfmath", "nuget.wpfmath\nuget.wpfmath.csproj", "{0873F877-D399-4CBC-8847-7958B5E1EB1D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,22 +87,6 @@ Global
 		{3EC1E466-A556-435F-824D-A3C592F84BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EC1E466-A556-435F-824D-A3C592F84BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EC1E466-A556-435F-824D-A3C592F84BBD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D1D0873-F1C3-4B2E-93E1-AC132605E515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D1D0873-F1C3-4B2E-93E1-AC132605E515}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D1D0873-F1C3-4B2E-93E1-AC132605E515}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D1D0873-F1C3-4B2E-93E1-AC132605E515}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D8E56F7-D27B-4857-8429-5597A916663C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D8E56F7-D27B-4857-8429-5597A916663C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D8E56F7-D27B-4857-8429-5597A916663C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D8E56F7-D27B-4857-8429-5597A916663C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{521F6585-2173-4C8B-8D0E-2A63050B347C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{521F6585-2173-4C8B-8D0E-2A63050B347C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{521F6585-2173-4C8B-8D0E-2A63050B347C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{521F6585-2173-4C8B-8D0E-2A63050B347C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0873F877-D399-4CBC-8847-7958B5E1EB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0873F877-D399-4CBC-8847-7958B5E1EB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0873F877-D399-4CBC-8847-7958B5E1EB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0873F877-D399-4CBC-8847-7958B5E1EB1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
