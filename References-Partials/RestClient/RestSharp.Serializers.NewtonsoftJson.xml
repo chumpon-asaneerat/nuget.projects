@@ -25,30 +25,20 @@
             </summary>
             <param name="settings">Json.Net serializer settings</param>
         </member>
-        <member name="M:RestSharp.Serializers.NewtonsoftJson.RestClientExtensions.UseNewtonsoftJson(RestSharp.RestClient)">
+        <member name="M:RestSharp.Serializers.NewtonsoftJson.RestClientExtensions.UseNewtonsoftJson(RestSharp.Serializers.SerializerConfig)">
             <summary>
             Use Newtonsoft.Json serializer with default settings
             </summary>
-            <param name="client"></param>
+            <param name="config"></param>
             <returns></returns>
         </member>
-        <member name="M:RestSharp.Serializers.NewtonsoftJson.RestClientExtensions.UseNewtonsoftJson(RestSharp.RestClient,Newtonsoft.Json.JsonSerializerSettings)">
+        <member name="M:RestSharp.Serializers.NewtonsoftJson.RestClientExtensions.UseNewtonsoftJson(RestSharp.Serializers.SerializerConfig,Newtonsoft.Json.JsonSerializerSettings)">
             <summary>
             Use Newtonsoft.Json serializer with custom settings
             </summary>
-            <param name="client"></param>
+            <param name="config"></param>
             <param name="settings">Newtonsoft.Json serializer settings</param>
             <returns></returns>
-        </member>
-        <member name="T:System.Runtime.CompilerServices.IsExternalInit">
-            <summary>
-                Reserved to be used by the compiler for tracking metadata.
-                This class should not be used by developers in source code.
-            </summary>
-            <remarks>
-                This definition is provided by the <i>IsExternalInit</i> NuGet package (https://www.nuget.org/packages/IsExternalInit).
-                Please see https://github.com/manuelroemer/IsExternalInit for more information.
-            </remarks>
         </member>
     </members>
 </doc>

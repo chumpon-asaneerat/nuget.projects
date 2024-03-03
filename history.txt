@@ -13,8 +13,9 @@ nuget.projects  #47
 nuget.projects  #46
 - 
 
+[commited]
 nuget.projects  #45
-- 
+- Clean packages
 
 [commited]
 nuget.projects  #44
