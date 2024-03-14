@@ -10,8 +10,9 @@ nuget.projects  #48
 nuget.projects  #47
 - 
 
+[commited]
 nuget.projects  #46
-- 
+- Add Owin Auth related packages.
 
 [commited]
 nuget.projects  #45
