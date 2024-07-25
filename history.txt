@@ -7,8 +7,9 @@ nuget.projects  #49
 nuget.projects  #48
 - 
 
+[commited]
 nuget.projects  #47
-- 
+- Add BarcodeLib samples project
 
 [commited]
 nuget.projects  #46
