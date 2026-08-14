@@ -49,6 +49,7 @@ namespace nuget.EPPlus
 
         private void Run()
         {
+            /*
             // If you are a commercial business and have
             // purchased commercial licenses use the static property
             // LicenseContext of the ExcelPackage class :
@@ -57,6 +58,9 @@ namespace nuget.EPPlus
             // If you use EPPlus in a noncommercial context
             // according to the Polyform Noncommercial license:
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+            */
+
+            ExcelPackage.License.SetNonCommercialPersonal("Your Name");
 
             /*
             using (var package = new ExcelPackage(new FileInfo("MyWorkbook.xlsx")))
