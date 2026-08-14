@@ -3,10 +3,33 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:xcad="http://schemas.xceed.com/wpf/xaml/avalondock"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
+        Title="MainWindow"
+        Height="450"
+        Width="800"
         Loaded="Window_Loaded">
     <Grid>
-        
+        <xcad:DockingManager>
+            <xcad:LayoutRoot x:Name="_layoutRoot">
+                <xcad:LayoutPanel Orientation="Horizontal">
+                    <xcad:LayoutDocumentPaneGroup>
+                        <xcad:LayoutDocumentPane>
+                            <xcad:LayoutDocument ContentId="documentA" Title="Document A">
+                                <TextBlock Text="document A content"
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center" />
+                            </xcad:LayoutDocument>
+                            <xcad:LayoutDocument ContentId="documenB" Title="Document B">
+                                <TextBlock Text="document B content"
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center" />
+                            </xcad:LayoutDocument>
+                        </xcad:LayoutDocumentPane>
+                    </xcad:LayoutDocumentPaneGroup>
+                </xcad:LayoutPanel>
+            </xcad:LayoutRoot>
+        </xcad:DockingManager>
     </Grid>
 </Window>
